@@ -1,0 +1,36 @@
+.alert-success{
+    padding: 20px 20px;
+}
+#content{
+  margin-top: 60px;
+}
+#albumImage{
+    width:620px;
+}
+#albumImage img{
+  display: block;
+  max-width:100%;
+}
+#thumbnailWrapper{
+   height: 1200px;
+   width: 200px;
+   position:relative;
+   overflow-y: auto;
+}
+
+#thumbnailList{
+  white-space: nowrap;
+  margin:0px;
+}
+
+#thumbnailList li{
+  display:block;
+  list-style-type: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+
+#thumbnailList li:hover{
+   opacity: 0.5;
+}
